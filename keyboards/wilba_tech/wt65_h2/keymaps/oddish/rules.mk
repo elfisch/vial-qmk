@@ -1,0 +1,6 @@
+USER_NAME := elfisch
+VIA_ENABLE = yes
+VIAL_ENABLE = yes
+QMK_SETTINGS = no
+LTO_ENABLE = yes
+REPEAT_KEY_ENABLE = no
