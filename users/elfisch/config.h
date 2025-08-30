@@ -15,7 +15,7 @@
 // #endif
 
 #define VIAL_UNLOCK_COMBO_ROWS { 0, 0 }
-#define VIAL_UNLOCK_COMBO_COLS { 0, 4 }
+#define VIAL_UNLOCK_COMBO_COLS { 0, 1 }
 
 // Sends qmk compile -kb (keyboard) -km (keymap), or qmk flash if shift is held.
 // Puts keyboard into bootloader mode if shift & control are held.
