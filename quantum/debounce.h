@@ -19,3 +19,6 @@ bool debounce(matrix_row_t raw[], matrix_row_t cooked[], uint8_t num_rows, bool 
 void debounce_init(uint8_t num_rows);
 
 void debounce_free(void);
+
+// from lizm (for qwertykeys neo65)
+void resetDebounce(uint32_t db_time);

@@ -34,6 +34,12 @@ When no state changes have occured for DEBOUNCE milliseconds, we push the state.
 static bool         debouncing = false;
 static fast_timer_t debouncing_time;
 
+// from lizm (for qwertykeys neo65)
+static uint32_t db_time = DEBOUNCE;
+void resetDebounce(uint32_t dt){
+    db_time = dt;
+}
+
 void debounce_init(uint8_t num_rows) {}
 
 bool debounce(matrix_row_t raw[], matrix_row_t cooked[], uint8_t num_rows, bool changed) {
